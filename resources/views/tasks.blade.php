@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Task Manager SPA</title>
-  @vite(['resources/css/app.css','resources/js/app.js'])
+  <title>Project Mentoring AI</title>
+  @vite(['resources/js/main.js', 'resources/css/app.css'])
 </head>
 <body class="bg-gray-100">
   <div id="app"></div>

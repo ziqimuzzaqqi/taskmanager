@@ -19,5 +19,4 @@ Route::get('/tasks', function () {
 });
 
 
-Route::view('/{any}', 'tasks')
-    ->where('any', '.*');
+Route::view('/{any}', 'tasks')->where('any', '.*');
